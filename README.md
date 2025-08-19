@@ -1,4 +1,4 @@
-#ThreadHarvester_RS
+# ThreadHarvester_RS
 
 A blazingly fast old.reddit crawler that snapshots posts, comments, and images into DuckDB.
 
@@ -21,5 +21,5 @@ Fast Reddit crawler (old.reddit) in Rust with:
 ## Build
 
 ```bash
-cd reddit_crawler_rs
+cd ThreadHarvester_RS
 cargo build --release
