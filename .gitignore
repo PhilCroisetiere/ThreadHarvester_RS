@@ -4,3 +4,10 @@
 !.gitignore
 !Cargo.toml
 !README.md
+!/scripts/
+!/scripts/**
+!Dockerfile
+!docker-compose.yml
+!data/
+!data/input/
+!data/output/

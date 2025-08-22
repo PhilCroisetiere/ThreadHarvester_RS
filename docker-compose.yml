@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  crawler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data/input:/data/input
+      - ./data/output:/data/output
+    environment:
+      - WEBDRIVER_URL=http://localhost:9515
+      - RUST_LOG=info
+      - HEADLESS=true
+      - WORKERS=2
+      - RPM=20
+      - VERBOSE_429=true
